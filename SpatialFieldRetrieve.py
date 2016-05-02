@@ -67,7 +67,7 @@ with arcpy.da.UpdateCursor(InLayer, ("OID@", InField)) as cursor:
     for row in cursor:
         #Search for dictionary item with feature's FID as key
         val = JoinDict[row[0]]
-        row[1] = str(val)
+        row[1] = val
         cursor.updateRow(row)
 
 #delete ScratchSJ file.
