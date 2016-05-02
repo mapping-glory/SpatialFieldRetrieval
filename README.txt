@@ -3,8 +3,7 @@ ArcGIS script to retrieve field data based on spatial relationship.
 
 Dependencies: ArcPy, ArcGIS license
 
-This tool is intended to be used as an ArcGIS Toolbox script in ArcMap. Given two layers, a source and destination field,
-and a spatial relationship, it retrieves values from the field in the source data and deposits it in the field in the target dataset.
+This tool is intended to be used as an ArcGIS Toolbox script in ArcMap. Given two layers, a source and destination field, and a spatial relationship, it retrieves values from the field in the source data and deposits it in the field in the target dataset. This is intended to replace a cycle of Spatial Join - Field Join - Field Calculate - Delete Field.
 
 Setup
 
